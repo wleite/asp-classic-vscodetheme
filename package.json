@@ -1,0 +1,26 @@
+{
+    "name": "asp",
+    "displayName": "asp-the-classic",
+    "description": "Easy way to work with legacy ASP Classic Scripts",
+    "version": "0.0.1",
+    "publisher": "wggv3efqlmr67mggbhop3qiknkemv44ivbmdscbz2shho5bygeiq",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "asp",
+            "aliases": ["ASP Classic", "asp"],
+            "extensions": [".asp",".asa",".inc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "asp",
+            "scopeName": "source.asp.classic",
+            "path": "./syntaxes/asp.tmLanguage.json"
+        }]
+    }
+}
